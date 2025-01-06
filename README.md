@@ -38,6 +38,9 @@ Some useful chips, which were built for this project:
 10. DMux8Way: 8-way demultiplexor, similar to DMux4Way.
 11. Add16: 16-bit adder. Adds two 16-bit two's complement values.
 12. Inc16: 16-bit incrementer. Increases a 16 bit number by 1.
+*Slicing of word*
+If arr is a 16-bit word and we want to use a selected portion of it then, we can do this using the syntax:
+- arr[i1..i2] where i1<i2.
 ## Instruction Encoding
 ![5](https://github.com/user-attachments/assets/5a58e9e8-6aba-4e16-91ce-150978c1409a)
 The machine language used in this project consists of two types of instructions:
@@ -68,4 +71,4 @@ In addition, computes the two output bits:
 ![4](https://github.com/user-attachments/assets/bd38abfb-b918-4cf7-bb3c-3ccd11132db7)
 ## CPU
 Parses the binary code in the instruction input and executes it according to the hack machine language specification. In the case of a C-instruction, computes the function specified by the instruction. If the instruction specifies to read a memory value, the inM input is expected to contain this value. If the instruction specifies to write a value to the memory, sets the outM output to this value, sets the addressM output to the target address, and asserts the writeM output (when writeM = 0, any value may appear in outM). If the reset input is 0, computes the address of the next instruction and sets the pc output to that value. If the reset input is 1, sets pc to 0.
-![Reset](https://github.com/user-attachments/assets/646fd697-6c03-40a7-8dfa-675221189ed2)
+![Reset](https://github.com/user-attachments/assets/ee4a0e00-c293-4853-b1e5-6e0b85b81daf)
