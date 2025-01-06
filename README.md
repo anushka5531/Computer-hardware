@@ -38,7 +38,8 @@ Some useful chips, which were built for this project:
 10. DMux8Way: 8-way demultiplexor, similar to DMux4Way.
 11. Add16: 16-bit adder. Adds two 16-bit two's complement values.
 12. Inc16: 16-bit incrementer. Increases a 16 bit number by 1.
-*Slicing of word*
+
+-*Slicing of word*
 If arr is a 16-bit word and we want to use a selected portion of it then, we can do this using the syntax:
 - arr[i1..i2] where i1<i2.
 ## Instruction Encoding
