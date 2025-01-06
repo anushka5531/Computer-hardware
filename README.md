@@ -43,7 +43,7 @@ Some useful chips, which were built for this project:
 If arr is a 16-bit word then, we can slice it using the syntax:
 - arr[i1..i2] where i1<i2.
 ## Instruction Encoding
-![5](https://github.com/user-attachments/assets/5a58e9e8-6aba-4e16-91ce-150978c1409a)
+![Reset](https://github.com/user-attachments/assets/81ec92cd-86d6-4020-a0a6-69071baacfa6)
 The machine language used in this project consists of two types of instructions:
 - A instruction: Sets the A register to the specified value.
 - C instruction: Comutes the value of "comp", stores result in "dest".
