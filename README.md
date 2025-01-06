@@ -9,30 +9,30 @@ It is the hardware of a computer of word size of 16-bit. The computer consists o
 ## Some Chips
 Some useful chips, which were built for this project:
 1. Not16: 16-bit Not gate, negates a 16-bit word.
-   -for i = 0, ..., 15:
-   -out[i] = Not(a[i])
+   - for i = 0, ..., 15:
+   - out[i] = Not(a[i])
 2. And16: 16-bit And gate, gives bitwise and of two 16-bit words.
-   -for i = 0, ..., 15:
-   -out[i] = a[i] And b[i]
+   - for i = 0, ..., 15:
+   - out[i] = a[i] And b[i]
 3. Or16: 16-bit Or gate, gives bitwise or of two 16-bit words.
-   -for i = 0, ..., 15:
-   -out[i] = a[i] Or b[i]
+   - for i = 0, ..., 15:
+   - out[i] = a[i] Or b[i]
 4. Mux16: 16-bit multiplexer.
-   -for i = 0, ..., 15:
-   -if (sel = 0) out[i] = a[i], else out[i] = b[i]
+   - for i = 0, ..., 15:
+   - if (sel = 0) out[i] = a[i], else out[i] = b[i]
 6. Or8Way: Outputs the Or of all bits of a 8-bit word.
-   -out=in[0] or in[1] or ... or in[7]
+   - out=in[0] or in[1] or ... or in[7]
 7. Mux4Way16:
-   -out = a if sel = 00
-         -b if sel = 01
-         -c if sel = 10
-         -d if sel = 11
+   - out = a if sel = 00
+         - b if sel = 01
+         - c if sel = 10
+         - d if sel = 11
 8. Mux8Way16: Similar to Mux4Way16.
 9. DMux4Way: 4-way demultiplexor
-   -[a, b, c, d] = [in, 0, 0, 0] if sel = 00
-                  -[0, in, 0, 0] if sel = 01
-                  -[0, 0, in, 0] if sel = 10
-                  -[0, 0, 0, in] if sel = 11
+   - [a, b, c, d] = [in, 0, 0, 0] if sel = 00
+                  - [0, in, 0, 0] if sel = 01
+                  - [0, 0, in, 0] if sel = 10
+                  - [0, 0, 0, in] if sel = 11
 10. DMux8Way: 8-way demultiplexor, similar to DMux4Way.
 11. Add16: 16-bit adder. Adds two 16-bit two's complement values.
 12. Inc16: 16-bit incrementer. Increases a 16 bit number by 1.
