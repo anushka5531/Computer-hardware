@@ -4,7 +4,7 @@ Software to check programs: (https://nand2tetris.github.io/web-ide/chip/)
  This repository contains the details and codes for the project under the "Build a modern computer from first principles:From nand to tetris part 1" course on coursera. It contains hardware parts of a computer, begenning from basic logic gates upto CPU.
 ## The "HACK" Computer
 It is the hardware of a computer of word size of 16-bit. The computer consists of: 
-- CPU:ALU, Program counter(PC), A registers(which store both address of registers and data) and D registers (which store data)
+- CPU:ALU, Program counter(PC), A registers(which stores both address of registers and data) and D registers (which stores data)
 - ROM32K: stores instructions. (Already provided)
 - Memory: First 16K(storing data), next 8K(for screen memory map), last 1 register (for keyboard memory map)
 ![1](https://github.com/user-attachments/assets/e65801a4-c970-47b3-ad0b-c0a70588cdfc)
