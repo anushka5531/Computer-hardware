@@ -30,10 +30,11 @@ Some useful chips, which were built for this project:
 8. Mux8Way16: Similar to Mux4Way16.
 9. DMux4Way: 4-way demultiplexor
    - [a, b, c, d] = [in, 0, 0, 0] if sel = 00
-                  - [0, in, 0, 0] if sel = 01
-                  - [0, 0, in, 0] if sel = 10
-                  - [0, 0, 0, in] if sel = 11
+   - [0, in, 0, 0] if sel = 01
+   - [0, 0, in, 0] if sel = 10
+   - [0, 0, 0, in] if sel = 11
 10. DMux8Way: 8-way demultiplexor, similar to DMux4Way.
 11. Add16: 16-bit adder. Adds two 16-bit two's complement values.
 12. Inc16: 16-bit incrementer. Increases a 16 bit number by 1.
 ## Instruction Encoding
+![5](https://github.com/user-attachments/assets/5a58e9e8-6aba-4e16-91ce-150978c1409a)
