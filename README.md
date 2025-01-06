@@ -1,4 +1,5 @@
 # Computer hardware
+Software to check programs: (https://nand2tetris.github.io/web-ide/chip/)
 ## Overview
  This repository contains the details and codes for the project under the "Build a modern computer from first principles:From nand to tetris part 1" course on coursera. It contains hardware parts of a computer, begenning from basic logic gates upto CPU.
 ## The "HACK" Computer
@@ -39,6 +40,10 @@ Some useful chips, which were built for this project:
 12. Inc16: 16-bit incrementer. Increases a 16 bit number by 1.
 ## Instruction Encoding
 ![5](https://github.com/user-attachments/assets/5a58e9e8-6aba-4e16-91ce-150978c1409a)
+The machine language used in this project consists of two types of instructions:
+- A instruction: Sets the A register to the specified value.
+- C instruction: Comutes the value of "comp", stores result in "dest".
+- if the boolean expression "comp" (for {comp;jump}) is true then jumps to execute instruction stored in ROM[A].
 ## ALU
 Arithmetic Logic Unit. Computes out = one of the following functions:
 - ( 0, 1, -1, x, y, !x, !y, -x, -y, x + 1, y + 1, x - 1, y - 1, x + y, x - y, y - x, x & y, x | y ) on the 16-bit inputs x, y.
