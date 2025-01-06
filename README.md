@@ -40,7 +40,7 @@ Some useful chips, which were built for this project:
 12. Inc16: 16-bit incrementer. Increases a 16 bit number by 1.
 
 -*Slicing of word*:-
-If arr is a 16-bit word and we want to use a selected portion of it then, we can do this using the syntax:
+If arr is a 16-bit word then, we can slice it using the syntax:
 - arr[i1..i2] where i1<i2.
 ## Instruction Encoding
 ![5](https://github.com/user-attachments/assets/5a58e9e8-6aba-4e16-91ce-150978c1409a)
