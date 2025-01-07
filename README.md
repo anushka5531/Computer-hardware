@@ -43,11 +43,11 @@ Some useful chips, which were built for this project:
 If arr is a 16-bit word then, we can slice it using the syntax:
 - arr[i1..i2] where i1<i2.
 ## Instruction Encoding
-![Reset](https://github.com/user-attachments/assets/81ec92cd-86d6-4020-a0a6-69071baacfa6)
-The machine language used in this project consists of two types of instructions:
 - The first bit of the instruction is "opcode".
+![Reset](https://github.com/user-attachments/assets/81ec92cd-86d6-4020-a0a6-69071baacfa6)
+The machine language used in this project consists of two types of instructions :
 - A instruction: Sets the A register to the specified value. opcode=0
-- C instruction: Comutes the value of "comp", stores result in "dest". opcode=1
+- C instruction: Computes the value of "comp", stores result in "dest". opcode=1
 - if the boolean expression "comp" (for {comp;jump}) is true then jumps to execute instruction stored in ROM[A].
 ## ALU
 Arithmetic Logic Unit. Computes out = one of the following functions:
