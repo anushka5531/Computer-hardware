@@ -26,9 +26,9 @@ Some useful chips, which were built for this project:
    - out=in[0] or in[1] or ... or in[7]
 7. Mux4Way16:
    - out = a if sel = 00
-         - b if sel = 01
-         - c if sel = 10
-         - d if sel = 11
+   - b if sel = 01
+   - c if sel = 10
+   - d if sel = 11
 8. Mux8Way16: Similar to Mux4Way16.
 9. DMux4Way: 4-way demultiplexor
    - [a, b, c, d] = [in, 0, 0, 0] if sel = 00
