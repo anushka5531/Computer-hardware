@@ -73,4 +73,4 @@ According to the input bits zx, nx, zy, ny, f, no.
 ![4](https://github.com/user-attachments/assets/bd38abfb-b918-4cf7-bb3c-3ccd11132db7)
 ## CPU
 Parses the binary code in the instruction input and executes it according to the hack machine language specification. In the case of a C-instruction, computes the function specified by the instruction. If the instruction specifies to read a memory value, the inM input is expected to contain this value. If the instruction specifies to write a value to the memory, sets the outM output to this value, sets the addressM output to the target address, and asserts the writeM output (when writeM = 0, any value may appear in outM). If the reset input is 0, computes the address of the next instruction and sets the pc output to that value. If the reset input is 1, sets pc to 0.
-![Reset](https://github.com/user-attachments/assets/ee4a0e00-c293-4853-b1e5-6e0b85b81daf)
+![Reset](https://github.com/user-attachments/assets/f4ee8a8a-3428-479c-b73f-90510ddee76f)
