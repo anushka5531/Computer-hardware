@@ -63,7 +63,7 @@ According to the input bits zx, nx, zy, ny, f, no.
 - *In addition, computes the two output bits:*
 - if (out == 0) zr = 1, else zr = 0
 - if (out < 0)  ng = 1, else ng = 0
-![3](https://github.com/user-attachments/assets/7e5d76d0-16d0-4a13-a9aa-f25dc7fdc58d)
+![Reset](https://github.com/user-attachments/assets/75b88f17-3109-46c5-8cd1-748fd36b8a51)
 ## Program counter
 16-bit program counter implementation:
 - if      reset(t): out(t+1) = 0
