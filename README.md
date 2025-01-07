@@ -60,7 +60,7 @@ According to the input bits zx, nx, zy, ny, f, no.
 - if (f == 1)  sets out = x + y  // integer 2's complement addition
 - if (f == 0)  sets out = x & y  // bitwise and
 - if (no == 1) sets out = !out   // bitwise not
-*In addition, computes the two output bits:*
+-*In addition, computes the two output bits:*
 - if (out == 0) zr = 1, else zr = 0
 - if (out < 0)  ng = 1, else ng = 0
 ![3](https://github.com/user-attachments/assets/7e5d76d0-16d0-4a13-a9aa-f25dc7fdc58d)
