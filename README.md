@@ -8,7 +8,7 @@ It is the hardware of a computer of word size of 16-bit. The computer consists o
 - ROM32K: stores instructions. (Already provided)
 - Memory: First 16K(storing data), next 8K(for screen memory map), last 1 register (for keyboard memory map)
 ![1](https://github.com/user-attachments/assets/e65801a4-c970-47b3-ad0b-c0a70588cdfc)
-## Some Chips
+## Chips
 Some useful chips, which were built for this project:
 1. Not16: 16-bit Not gate, negates a 16-bit word.
    - for i = 0, ..., 15:
