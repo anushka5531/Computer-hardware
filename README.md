@@ -1,5 +1,6 @@
 # Computer hardware
 Software to check programs: (https://nand2tetris.github.io/web-ide/chip/)
+-* The hardware description language used in this project was developed by the instructors of the course.*
 ## Overview
  This repository contains the details and codes for the project under the "Build a modern computer from first principles:From nand to tetris part 1" course on coursera. It contains hardware parts of a computer, begenning from basic logic gates upto CPU.
 ## The "HACK" Computer
